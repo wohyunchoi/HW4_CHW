@@ -1,0 +1,21 @@
+git commit -m "A"
+
+git checkout -b develop
+
+git commit -m "B"
+
+git checkout master
+
+git commit -am "C"
+
+git merge develop             //  merge commit message => "D"
+
+git checkout develop
+
+git commit -am "E"
+
+git checkout master
+
+git merge develop		//   merge commit message => "F"
+
+git checkout develop
